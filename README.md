@@ -1,0 +1,2 @@
+# modLog
+ Logger for python
