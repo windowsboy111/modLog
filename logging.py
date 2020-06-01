@@ -27,7 +27,7 @@ class Logger:
         self.logs[datetime.now().time()] = {'level':'critical','msg':msg}
     def debug(self,msg:str):
         self.logs[datetime.now().time()] = {'level':'debug','msg':msg}
-    def log(self,args,kwargs):
+    def log(self,args=None,kwargs=None):
         return self.settings['defaultLvl'](args,kwargs)
-    def get(self,args,kwargs):
+    def get(self,args=None,kwargs=None):
         return self.logs
