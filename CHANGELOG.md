@@ -9,4 +9,4 @@
 - basic support for `log()`, `debug()`, and more
 
 [Unreleased]: https://github.com/windowsboy111/modLog/compare/0.1a...HEAD
-[0.1a]: https://github.com/windowsboy111/modLog/releases/tag/v0.1.0
+[0.1a]: https://github.com/windowsboy111/modLog/releases/tag/0.1a
