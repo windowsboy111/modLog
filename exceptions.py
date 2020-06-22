@@ -14,4 +14,4 @@ class invArgs(Exception):
     def __str__(self):
         return self.message
     def __repr__(self):
-        return {'error':'invalidName','message':self.message,'possible':self.possible,'reason':self.reason}
+        return {'error':'invArgs','message':self.message,'possible':self.possible,'reason':self.reason}
